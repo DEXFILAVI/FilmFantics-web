@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cortometraje - FimlFantics</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style_Paginas.css">
+</head>
+<body>
+  <header>
+    <img src="anatic.png" alt="Logo" class="logo">
+    <div class="top-controls">
+      <input type="text" placeholder="Buscar...">
+      <button>Buscar</button>
+      <button onclick="window.location.href='index.html'">← Volver al inicio</button>
+      <button onclick="toggleMenu()">Menú</button>
+    </div>
+  </header>
+
+  <div id="menuCategorias">
+    <button onclick="location.href='Peliculas.html'">Películas</button>
+    <button onclick="location.href='Series.html'">Series</button>
+    <button onclick="location.href='cortometraje.html'">Cortometrajes</button>
+    <button onclick="location.href='Documentales.html'">Documentales</button>
+    <button onclick="location.href='Animacion.html'">Animación</button>
+    <button onclick="location.href='Favoritos.html'">Favoritos</button>
+  </div>
+
+  <h1>Cortometraje Destacadas</h1>
+
+  <div class="pagina-grid">
+    <div class="pagina">
+      <img src="C:\Users\HP-2024\Documents\FilmsFantics\series.jpg" alt="Serie 1">
+      <h3>Serie 1</h3>
+    </div>
+    <div class="pagina">
+      <img src="C:\Users\HP-2024\Documents\FilmsFantics\serie3.jpg" alt="Serie 2">
+      <h3>Serie 2</h3>
+    </div>
+    <div class="pagina">
+      <img src="C:\Users\HP-2024\Documents\FilmsFantics\Novedad3.jpg" alt="Serie 3">
+      <h3>Serie 3</h3>
+    </div>
+    <div class="pagina">
+      <img src="C:\Users\HP-2024\Documents\FilmsFantics\Novedad 4.jpg" alt="Serie 4">
+      <h3>Serie 4</h3>
+    </div>
+  </div>
+
+  <footer class="redes-sociales">
+    <p>Síguenos en:</p>
+    <div class="iconos-redes">
+      <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuCategorias");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>

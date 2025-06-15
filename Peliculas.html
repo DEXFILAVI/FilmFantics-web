@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style_Paginas.css">
+</head>
+<body>
+  <header>
+    <img src="img/anatic.png" alt="Logo" class="logo">
+    <div class="top-controls">
+      <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+      <button onclick="window.location.href='index.html'">← Volver al inicio</button>
+      <button onclick="toggleMenu()">Menú</button>
+    </div>
+  </header>
+
+  <div id="menuCategorias">
+    <button onclick="location.href='Peliculas.html'">Películas</button>
+    <button onclick="location.href='Series.html'">Series</button>
+    <button onclick="location.href='Documentales.html'">Documentales</button>
+    <button onclick="location.href='Animacion.html'">Animación</button>
+  </div>
+
+  <h1>Peliculas Destacadas</h1>
+
+  <div class="pagina-grid">
+    <div class="pagina"><img src="img\BlancaNieves-Poster.webp" alt="img"><h3>Blanca Nieves</h3><p>Disney revive el clásico de 1937 con una nueva adaptación live action de Blanca Nieves</p></div>
+    <div class="pagina"><img src="img\The-Last-Showgirl-Poster.webp" alt="img"><h3>The Last Showgirl</h3><p>Shelly es una experimentada showgirl en sus cincuenta.</p></div>
+    <div class="pagina"><img src="img\estreno7.jpg" alt="img Pelicula"><h3>THUNDERBOLTS</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\peliculas 4.jpg" alt="img Pelicula"><h3>MINECRAFT</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+</div>
+  <h1>Proximos Estrenos</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\estreno2.jpg" alt="img"><h3>Blanca Nieves</h3><p>Disney revive el clásico de 1937 con una nueva adaptación live action de Blanca Nieves</p></div>
+  <div class="pagina"><img src="img\Estreno4.jpg" alt="img"><h3>The Last Showgirl</h3><p>Shelly es una experimentada showgirl en sus cincuenta.</p></div>
+    <div class="pagina"><img src="img\Codigo-Negro-Poster-1.webp" alt="img Pelicula"><h3>Codigo Negro</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\estrenote.jpg" alt="img Pelicula"><h3>Los Ilusionistas 3</h3></div>
+</div>
+
+ <h1>Peliculas Recomendadas</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\estrenoko.jpg" alt="img"><h3>F1</h3><p></p></div>
+  <div class="pagina"><img src="img\estreno8.jpg" alt="img"><h3>Avatar 3</h3><p>Shelly es una experimentada showgirl en sus cincuenta.</p></div>
+    <div class="pagina"><img src="img\estreno6.jpg" alt="img Pelicula"><h3>Karated Kidt: Legends</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\estrenoru.jpg" alt="img Pelicula"><h3>The Bad Guys</h3></div>
+</div>
+  <footer class="redes-sociales">
+    <p>Síguenos en:</p>
+    <div class="iconos-redes">
+      <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuCategorias");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+   <footer class="footer">
+    <p>&copy; 2025 DigiTradeX - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

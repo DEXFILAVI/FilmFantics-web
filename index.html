@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FILMFANATICS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="cssIndex.CSS">
+</head>
+<body>
+<header class="titulo">
+  <img src="img/anatic.png" alt="Logo" class="logo">
+  <div class="top-controls">
+    <input type="text" id="inputBuscar" placeholder="Buscar...">
+<button id="btnBuscar">Buscar</button>
+    <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+    <button onclick="toggleMenu()">Menú</button>
+  </div>
+</header>
+<div id="menuCategorias">
+  <button onclick="location.href='Peliculas.html'">Películas</button>
+  <button onclick="location.href='Series.html'">Series</button>
+   <button onclick="location.href='Documentales.html'">Documentales</button>
+  <button onclick="location.href='Animacion.html'">Animación</button>
+</div>
+<header class="seccionbotones">
+<div class="section-buttons">
+  <button onclick="scrollToSection('noticias')">Noticias</button>
+  <button onclick="scrollToSection('tendencias')">Tendencias</button>
+  <button onclick="scrollToSection('estrenos')">Estrenos</button>
+  <button onclick="scrollToSection('criticas')">Críticas</button>
+  <button onclick="scrollToSection('novedades')">Novedades</button>
+</div>
+</header>
+<div class="main-content">
+  <div class="descripcion-noticias">
+    <div class="descripcion">
+      <p><strong>Bienvenidos a FilmFanatics</strong><br> Aquí el cine es nuestra pasión. Explora reseñas, comparte opiniones y descubre lo mejor del séptimo arte.</p>
+       <div class="card">
+  <video controls poster="estrenos.jpg" > <source src="img\FilmsFanatic (1).mp4" type="video/mp4"> Tu navegador no soporta videos HTML5. </video>
+  <div class="card-content">
+  <p>Vistazo a la pelicula "más esperada del año" Superman:legacy.</p>
+   </div>
+ </div>
+</div>
+      <section id="noticias" class="seccion">
+      <h2>Noticias</h2>
+      <div class="slider">
+        <div class="slide active">
+          <h3><a href="index.html">Estreno de la nueva película de Nolan</a></h3>
+          <p>Christopher Nolan sorprende al mundo con su nueva obra maestra.</p>
+          <img src="img/La_Odisea.jpg" alt="La Odisea">
+        </div>
+        <div class="slide">
+          <h3><a href="index.html">Festival de Cannes 2025</a></h3>
+          <p>Las mejores películas independientes del año se presentan en Francia.</p>
+          <img src="img/Noticia2.jpg" alt="Festival Cannes">
+        </div>
+        <div class="slide">
+          <h3><a href="index.html">Marvel anuncia nueva fase</a></h3>
+          <p>Marvel reveló sus próximos proyectos cinematográficos.</p>
+          <img src="img\Noticia 3.jpg" alt="Marvel Nueva Fase">
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button onclick="prevSlide()">❮</button>
+        <button onclick="nextSlide()">❯</button>
+      </div>
+    </section>
+  </div>
+
+  <section id="tendencias" class="seccion">
+    <h2>Tendencias</h2>
+    <div class="card-grid">
+      <div class="card"><img src="img/Tendencia.jpg"><div class="card-content"><h3>Película Popular. FLOW</h3><p>La más comentada del momento. Ganadora del premio Oscar 2025 como mejor pelicula Unimada</p></div></div>
+      <div class="card"><img src="img\Novedad 4.jpg"><div class="card-content"><h3>Adolecencia. serie Exitoxa</h3><p>El mundo de una familia se pone patas arriba cuando Jamie Miller, de 13 años, es arrestado por asesinar a un compañero de escuela. Los cargos contra su hijo los obligan a enfrentarse a la peor pesadilla de cualquier padre</p></div></div>
+      <div class="card"><img src="img\BlancaNieves-Poster.webp"><div class="card-content"><h3> Blanca Nieves, Tan mala es la pelicula</h3><p>La más mencionada en los ultimos dias pero no por ser buena al contrario todo internet sabe de las criticas de la pelicula, y las criticas hacia la actriz</p></div></div>
+      <div class="card"><img src="img\Como-entrenar-a-tu-dragon-Poster.webp"><div class="card-content"><h3> Como Entrenar a Tu Dragon. Estreno esperado</h3><p>ESte año sera grande para el cine y no es de menos ya que se estrenara el remake live-action de la franquicia homónima, basada en la serie de libros homónima de Cressida Cowell.</p></div></div>
+      <div class="card"><img src="img\Conclave-Poster.webp"><div class="card-content"><h3>Conclave</h3><p>Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence es el responsable de la elección de un nuevo Papa. Los líderes más poderosos de la Iglesia Católica se reúnen en el Vaticano y Lawrence se ve atrapado dentro de una compleja conspiración.</p></div></div>
+    </div>
+
+  </section>
+
+<section id="estrenos" class="seccion">
+  <h2>Estrenos</h2>
+  <div class="card-grid">
+  <div class="card">
+  <video controls poster="estrenos.jpg" > <source src="" type="video/mp4"> Tu navegador no soporta videos HTML5. </video>
+  <div class="card-content">
+  <h3>Nuevo Estreno</h3>
+  <p>La película más esperada del año.</p> </div>
+ </div>
+  <div class="card">
+  <video controls poster="estrenos.jpg"> <source src="" type="video/mp4">Tu navegador no soporta videos HTML5. </video>
+  <div class="card-content">
+ <h3>Comedia Romántica</h3>
+  <p>Una historia que conquistará corazones.</p></div>
+ </div>
+  <div class="card">
+  <video controls poster="estrenos.jpg" ><source src="" type="video/mp4"> Tu navegador no soporta videos HTML5.</video>
+      <div class="card-content">
+        <h3>Nuevo Estreno</h3>
+        <p>La película más esperada del año.</p></div>
+    </div>
+  <div class="card">
+  <video controls poster="estrenos.jpg" > <source src="" type="video/mp4"> Tu navegador no soporta videos HTML5.</video>
+      <div class="card-content">
+        <h3>Nuevo Estreno</h3>
+        <p>La película más esperada del año.</p></div>
+    </div>
+     <div class="card">
+  <video controls poster="estrenos.jpg" ><source src="" type="video/mp4"> Tu navegador no soporta videos HTML5</video>
+      <div class="card-content">
+        <h3>Nuevo Estreno</h3>
+        <p>La película más esperada del año.</p></div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+  <section id="criticas" class="seccion">
+    <h2>Críticas</h2>
+    <div class="card-grid">
+<div class="card"><img src="img/Critica.jpg"><div class="card-content"><h3>Crítica de "Capitan America"</h3><p>Una obra visual impresionante.</p></div></div>
+<div class="card"><img src="img\The-Last-of-Us-T2-Poster-2-1-scaled.webp"><div class="card-content"><h3>Crítica de "Sombras"</h3><p>Una narrativa poderosa y emotiva.</p></div></div>
+<div class="card"><img src="img\peliculas 4.jpg"><div class="card-content"><h3>Crítica de "Sombras"</h3><p>Una narrativa poderosa y emotiva.</p></div></div>
+<div class="card"><img src="img\critica 2.webp"><div class="card-content"><h3>Crítica de "Sombras"</h3><p>Una narrativa poderosa y emotiva.</p></div></div>
+<div class="card"><img src="img\Codigo-Negro-Poster-1.webp"><div class="card-content"><h3>Crítica de "Sombras"</h3><p>Una narrativa poderosa y emotiva.</p></div></div>
+    </div>
+  </section>
+
+  <section id="novedades" class="seccion">
+    <h2>Novedades</h2>
+    <div class="card-grid">
+  <div class="card"><img src="img/Novedad2.jpg"><div class="card-content"><h3>Serie Nueva</h3><p>Una producción que promete romper esquemas.</p></div></div>
+  <div class="card"><img src="img/Novedad 4.jpg"><div class="card-content"><h3>ADOLESCENCIA</h3><p>Serie de NETFLIZ.</p></div></div>
+  <div class="card"><img src="img/Novedad3.jpg"><div class="card-content"><h3>The Amazing Spaiderman</h3><p>Un vistazo a la historia jamás contada.</p></div></div>
+<div class="card"><img src="img\series_des.jpg"><div class="card-content"><h3>INVENCIBLE</h3><p>Un vistazo a la historia jamás contada.</p></div></div>
+  <div class="card"><img src="img/Estreno.jpg"><div class="card-content"><h3>Amenaza en el Aire </h3><p>Un vistazo a la historia jamás contada.</p></div></div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="redes-sociales">
+  <p>Síguenos en:</p>
+  <div class="iconos-redes">
+    <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+
+<script>
+
+  let currentSlide = 0;
+  let slideInterval;
+
+  function showSlide(index) {
+    const slides = document.getElementsByClassName("slide");
+    [...slides].forEach(s => s.classList.remove("active"));
+    slides[index].classList.add("active");
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    const slides = document.getElementsByClassName("slide");
+    showSlide((currentSlide + 1) % slides.length);
+  }
+
+  function prevSlide() {
+    const slides = document.getElementsByClassName("slide");
+    showSlide((currentSlide - 1 + slides.length) % slides.length);
+  }
+
+  function startSlideInterval() {
+    slideInterval = setInterval(nextSlide, 5000);
+  }
+
+  function toggleMenu() {
+    const menu = document.getElementById("menuCategorias");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+
+  function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+
+  window.onload = () => {
+    showSlide(0);
+    startSlideInterval();
+  }
+
+  // FUNCIÓN DE BÚSQUEDA
+  document.getElementById("btnBuscar").addEventListener("click", function () {
+    var textoBusqueda = document.getElementById("inputBuscar").value.trim().toLowerCase();
+
+    // Diccionario de secciones y páginas
+    var secciones = {
+      "inicio": "#inicio",
+      "noticias": "#noticias",
+      "tendencias": "#tendencias",
+      "estrenos": "#estrenos",
+      "críticas": "#criticas",
+      "criticas": "#criticas",
+      "novedades": "#novedades",
+      "películas": "Peliculas.html",
+      "series": "Series.html",
+      "documentales": "Documentales.html",
+      "animación": "Animacion.html",
+      "eventos": "Eventos.html",
+      "programas": "Programas.html",
+      "sobre nosotros": "Sobre_Nosotros.html",
+      "nosotros": "Sobre_Nosotros.html",
+      "contacto": "#contacto"
+    };
+
+    if (secciones[textoBusqueda]) {
+      var destino = secciones[textoBusqueda];
+      if (destino.startsWith("#")) {
+        var seccion = document.querySelector(destino);
+        if (seccion) {
+          seccion.scrollIntoView({ behavior: "smooth" });
+        } else {
+          alert("Sección no encontrada en esta página.");
+        }
+      } else {
+        window.location.href = destino;
+      }
+    } else {
+      alert("Por favor, escribe el nombre exacto de una sección o página.");
+    }
+  });
+</script>
+ <footer class="footer">
+    <p>&copy; 2025 DigiTradeX - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

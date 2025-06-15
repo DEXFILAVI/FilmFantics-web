@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FILMFANATICS - Animacion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style_Paginas.CSS">
+</head>
+<body>
+  <header>
+    <img src="img\anatic.png" alt="Logo" class="logo">
+    <div class="top-controls">
+      <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+      <button onclick="window.location.href='index.html'">← Volver al inicio</button>
+      <button onclick="toggleMenu()">Menú</button>
+    </div>
+  </header>
+
+  <div id="menuCategorias">
+    <button onclick="location.href='Peliculas.html'">Películas</button>
+    <button onclick="location.href='Series.html'">Series</button>
+    <button onclick="location.href='Documentales.html'">Documentales</button>
+    <button onclick="location.href='Animacion.html'">Animación</button>
+  </div>
+
+ <h1>Animacion Destacadas</h1>
+
+  <div class="pagina-grid">
+    <div class="pagina"><img src="img\peliculas 4.jpg"alt="img"><h3>Maincraft</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación. </p></div>
+    <div class="pagina"><img src="img\animacion.jpg" alt="img"><h3>Dog-Man</h3><p>Una operación une a un policía y a su fiel perro policía, dando nacimiento a Dog Man, quien debe aprender a aceptar su nueva identidad y evitar que el supervillano felino Petey el Gato se clone a sí mismo y realice una ola de crímenes.</p></div>
+    <div class="pagina"><img src="img\series_des.jpg" alt="img Pelicula"><h3>INVENCIBLE</h3><p>Mark Grayson, de 17 años, es como cualquier otro chico de su edad, excepto que su padre es el superhéroe más poderoso del planeta, Omni-Man. Mark descubre que el legado de su padre puede no ser tan heroico como parece</p></div>
+    <div class="pagina"><img src="img\Tendencia.jpg" alt="img Pelicula"><h3>FLOW</h3><p>La cinta, que está en cines, cuenta la historia de un gatito en un mundo apocalíptico en donde no hay humanos.</p></div>
+</div>
+  <h1>Proximos Estrenos</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\an.jpg" alt="img"><h3>Pitufos</h3><p>Próximamente, el imperio de Los Pitufos continuará expandiéndose en Untitled Smurfs Animated Musical, donde continuarán sus aventuras en forma de un musical.</p></div>
+  <div class="pagina"><img src="img\animac.jpg"alt="img"><h3>Chainsaw Man</h3><p>La trama sigue a Denji, un adolescente que se convierte en Chainsaw Man después de fusionarse con un demonio, y se enfoca en su romance con Reze, un híbrido demonio-humano que, sin que él lo sepa, trabaja para el Gun Devil. </p></div>
+    <div class="pagina"><img src="img\pelicula2.jpg"alt="img Pelicula"><h3>Memorias de un Caracol</h3><p>Una niña que se enfrenta a una serie de pérdidas y traumas tras la muerte de sus padres, siendo luego separada de su hermano gemelo Gilbert. Grace encuentra consuelo en su amor por los caracoles y en la amistad con una anciana excéntrica llamada Pinky.</p></div>
+    <div class="pagina"><img src="img\anim.jpg" alt="img Pelicula"><h3>Zootopia</h3><p>Judy Hopps, una coneja policía, y Nick Wilde, un zorro estafador, se enfrentan a un nuevo caso: la aparición de un misterioso reptil que pone patas arriba la metrópolis de Zootopia.</p></div>
+</div>
+<h1>Animaciones Recomendadas</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\ani.jpg" alt="img"><h3>Elliot</h3><p>Una producción enfocada en la vida y obra del poeta T.S. Eliot, explorando su evolución desde sus inicios hasta su reconocimiento como ganador del Premio Nobel. </p></div>
+  <div class="pagina"><img src="img\anima.jpg" alt="img"><h3>Plankton: la pelicula</h3><p>Tras una pelea de pareja, Karen idea su propio plan para conquistar el mundo, y Plankton busca la ayuda de un aliado inesperado: ¡Bob Esponja!</p></div>
+    <div class="pagina"><img src="img\animaci.jpg" alt="img Pelicula"><h3></h3><p> Yohualli Coatl, un joven azteca, se convierte en el Batman del imperio, después de la muerte de su padre a manos de los conquistadores españoles. Se convierte en el protector de Tenochtitlán y lucha contra Hernán Cortés y sus fuerzas, usando el templo de Tzinacan. </p></div>
+    <div class="pagina"><img src="img\animacio.jpg" alt="img Pelicula"><h3>Tronn:Ares</h3><p> En Tron 3, esta valiosa historia de Disney llega una vez más, esta vez bajo la dirección de Garth Davis, con un guion de Jesse Wigutow, y protagonizada por el ganador del Oscar Jared Leto.</p></div>
+</div>
+
+  <footer class="redes-sociales">
+    <p>Síguenos en:</p>
+    <div class="iconos-redes">
+      <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuCategorias");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+   <footer class="footer">
+    <p>&copy; 2025 DigiTradeX - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

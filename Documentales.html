@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentales-FilmFanatic</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style_Paginas.css">
+</head>
+<body>
+  <header>
+    <img src="img\anatic.png" alt="Logo" class="logo">
+    <div class="top-controls">
+      <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+      <button onclick="window.location.href='index.html'">← Volver al inicio</button>
+      <button onclick="toggleMenu()">Menú</button>
+    </div>
+  </header>
+
+  <div id="menuCategorias">
+    <button onclick="location.href='Peliculas.html'">Películas</button>
+    <button onclick="location.href='Series.html'">Series</button>
+    <button onclick="location.href='Documentales.html'">Documentales</button>
+    <button onclick="location.href='Animacion.html'">Animación</button>
+  </div>
+
+ <h1>Documentales Estrenos</h1>
+
+  <div class="pagina-grid">
+    <div class="pagina"><img src="img\document.jpg"alt="img"><h3>Jerry Springer</h3><p>Peleas, cámara, ¡acción!", explora la historia del programa de entrevistas más controvertido de la televisión estadounidense, mostrando tanto los escándalos que se llevaron a cabo frente a las cámaras como los que se desarrollaron detrás de ellas.</p></div>
+    <div class="pagina"><img src="img\Kun-por-Aguero-Poster.webp" alt="img"><h3>Kun por Aguero</h3><p> es un documental biográfico que relata la vida de Sergio Agüero, desde sus humildes orígenes hasta su consagración como futbolista mundial, incluyendo su abrupto retiro debido a una afección cardíaca.</p></div>
+    <div class="pagina"><img src="img\Documental4.jpg"alt="img Pelicula"><h3>Karol G</h3><p> Karol G nos ofrece una mirada íntima y auténtica de su vida y carrera musical mientras navega una gira mundial que atrae a millones de fans.</p></div>
+    <div class="pagina"><img src="img\docum.jpg" alt="img Pelicula"><h3>APOCALIPSIS</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+</div>
+  <h1>Documentales Populares</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\docu.jpg" alt="img"><h3>No Te Mueras</h3><p>Explora la obsesión de Bryan Johnson, un multimillonario de Silicon Valley, por evitar el envejecimiento y la muerte. todo con el objetivo de ralentizar o detener el proceso de envejecimiento.</p></div>
+  <div class="pagina"><img src="img\Pamela.jpg" alt="img"><h3>Pamela</h3><p>La propia Pamela Anderson narra la historia de su ascenso a la fama, sus turbulentos romanes y el famoso vídeo sexual</p></div>
+    <div class="pagina"><img src="img\documenta.jpg" alt="img Pelicula"><h3>NO OTHER LAND</h3><p>Un colectivo formado por palestinos e israelíes documenta la destrucción de las aldeas que componen Masafer Yatta a manos de los soldados israelíes. En el proceso se forma una alianza entre un activista palestino y un periodista israelí.</p></div>
+    <div class="pagina"><img src="img\Documental2.jpg"alt="img Pelicula"><h3>CAOS</h3><p>Explora los asesinatos de 1969 ordenados por Charles Manson, enfocándose en cómo logró el control mental sobre su secta y llevó a cabo esos crímenes horribles.</p></div>
+</div>
+   <h1>Documentales Recomendados</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\Documental-.jpg" alt="img"><h3>Caída de un Ícono: P. Diddy</h3><p>Explora la trayectoria de Sean Combs, desde sus inicios hasta su reputación actual. El documental revela acusaciones de violencia y abuso que han salido a la luz, desafiando la imagen pública que se tenía del magnate de la música.</p></div>
+  <div class="pagina"><img src="img\doc.jpg" alt="img"><h3>PELE</h3><p>Con un turbulento Brasil como telón de fondo, este documental retrata la historia de Pelé: desde sus inicios como nuevo talento hasta su transformación en héroe nacional.</p></div>
+    <div class="pagina"><img src="img\elton.jpg" alt="img Pelicula"><h3>ROCK MAN</h3><p>narra la vida y carrera del músico Elton John. La historia sigue a Elton (antes Reginald Dwight) desde su infancia, pasando por su educación musical y su ascenso a la fama, incluyendo sus éxitos y sus problemas personales. </p></div>
+    <div class="pagina"><img src="img\docm.jpg" alt="img Pelicula"><h3>La Singular Vida de Ibelin</h3><p>La vida secreta en el mundo secreto de un jugador de "World of Warcraft" cobra vida cuando sus amigos contactan a su familia luego del fallecimiento del joven</p></div>
+</div>
+
+  <footer class="redes-sociales">
+    <p>Síguenos en:</p>
+    <div class="iconos-redes">
+      <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuCategorias");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+   <footer class="footer">
+    <p>&copy; 2025 DigiTradeX - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

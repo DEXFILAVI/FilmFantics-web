@@ -1,0 +1,82 @@
+<html>
+<head>
+  <title>Iniciar Sesión - FILMSFANATICS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:  #0047AB;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      background-color: #2a2a2a;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      margin-bottom: 20px;
+      color: #ff4747;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff4747;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-container button:hover {
+      background-color: #cc3a3a;
+    }
+
+    .login-container .volver {
+      margin-top: 20px;
+      display: inline-block;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .login-container .volver:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>Iniciar Sesión</h1>
+    <form>
+      <input type="text" placeholder="Usuario o correo" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <a href="index.html" class="volver">← Volver al inicio</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style_Paginas.css">
+</head>
+<body>
+  <header>
+    <img src="img\anatic.png" alt="Logo" class="logo">
+    <div class="top-controls">
+      <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+      <button onclick="window.location.href='index.html'">← Volver al inicio</button>
+      <button onclick="toggleMenu()">Menú</button>
+    </div>
+  </header>
+
+  <div id="menuCategorias">
+    <button onclick="location.href='Peliculas.html'">Películas</button>
+    <button onclick="location.href='Series.html'">Series</button>
+    <button onclick="location.href='Documentales.html'">Documentales</button>
+    <button onclick="location.href='Animacion.html'">Animación</button>
+  </div>
+
+ <h1>Series Destacadas</h1>
+
+  <div class="pagina-grid">
+    <div class="pagina"><img src="img\Novedad 4.jpg"alt="img"><h3>ADOLECENCIA</h3><p>Serie de NETFLIX</p></div>
+    <div class="pagina"><img src="img\serie4.jpg" alt="img"><h3> El ETERNAUTA</h3><p>Serie destaca en los ultimos Dias</p></div>
+    <div class="pagina"><img src="img\seriegale.jpg" alt="img Pelicula"><h3>YOU</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\series_des.jpg" alt="img Pelicula"><h3>INVENCIBLE</h3><p>Mark Grayson, de 17 años, es como cualquier otro chico de su edad, excepto que su padre es el superhéroe más poderoso del planeta, Omni-Man. Mark descubre que el legado de su padre puede no ser tan heroico como parece</p></div>
+</div>
+  <h1>Proximos Estrenos</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\series.jpg" alt="img"><h3>The Last Of US</h3><p>HBO revive el clásico de 1937 con una nueva adaptación live action de Blanca Nieves</p></div>
+  <div class="pagina"><img src="img\serie3.jpg" alt="img"><h3>DARDEVIL</h3><p>Shelly es una experimentada showgirl en sus cincuenta.</p></div>
+    <div class="pagina"><img src="img\seriega.jpg" alt="img Pelicula"><h3>Orange</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\serie9.jpg" alt="img Pelicula"><h3>PARADAISE</h3></div>
+</div>
+
+ <h1>Series Recomendadas</h1>
+  <div class="pagina-grid">
+  <div class="pagina"><img src="img\ser.jpg" alt="img"><h3>GOOD AMERICAN FAMILY</h3><p>Una familya perfecta?. MiniSerie </p></div>
+  <div class="pagina"><img src="img\seri.jpg" alt="img"><h3>El gran Guerrero</h3><p>Serie.</p></div>
+    <div class="pagina"><img src="img\Novedad3.jpg" alt="img Pelicula"><h3>THE AMEAZING: SPIDER-MAN</h3><p>Garrett Garrison, Henry, Natalie y Dawn atraviesan un misterioso portal al Overworld: una extraña tierra cuadrada que prospera con la imaginación.</p></div>
+    <div class="pagina"><img src="img\El-estudio-Poster-1-1-1.webp" alt="img Pelicula"><h3>El Estudio</h3><p></p></div>
+  </div>
+
+  <footer class="redes-sociales">
+    <p>Síguenos en:</p>
+    <div class="iconos-redes">
+      <a href="https://facebook.com/FilmFanatics" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/FilmFanatics" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@FilmFanatics" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/FilmFanatics" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuCategorias");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+  </script>
+   <footer class="footer">
+    <p>&copy; 2025 DigiTradeX - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
